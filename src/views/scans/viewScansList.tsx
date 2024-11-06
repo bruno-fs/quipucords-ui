@@ -250,6 +250,13 @@ const ScansListView: React.FunctionComponent = () => {
                             setScanSelected(undefined);
                           });
                         }
+                      },
+                      {
+                        label: t('table.label', { context: 'download' }),
+                        disabled: scan.most_recent?.status === 'completed' ? false : true,
+                        onClick: () => {
+                          downloadReport(scan.most_recent?.report_id);
+                        }
                       }
                     ]}
                   />

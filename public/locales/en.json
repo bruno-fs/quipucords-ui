@@ -173,6 +173,7 @@
     "label_satellite": "Satellite",
     "label_rhacs": "RHACS",
     "label_rescan": "Rescan",
+    "label_download": "Download",
     "label_scan": "Scan",
     "label_source": "Source",
     "label_source_other": "Sources",
@@ -276,6 +277,7 @@
     "description_scan-jobs_fetched_error": "Error displaying connection information. {{message}",
     "description_report_downloaded": "Report {{name}} downloaded successfully.",
     "description_report_downloaded_error": "Failed to download report {{name}}: {{message}}",
+    "description_report_downloaded_error_no_report": "The report doesn't exist.",
     "description_scan-report_start": "$t(toast-notifications.description_scan-report_play)",
     "title_add-source_hidden_error": "Error creating source {{ name }}. {{ message }}",
     "title_add-source_hidden_error_edit": "Error updating source {{ name }}. {{ message }}"

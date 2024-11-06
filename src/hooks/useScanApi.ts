@@ -343,8 +343,19 @@ const useDownloadReportApi = (onAddAlert: (alert: AlertProps) => void) => {
     [onAddAlert, t]
   );
 
+  const callbackErrorNoReport = useCallback(() => {
+    onAddAlert({
+      title: t('toast-notifications.description_report_downloaded_error_no_report'),
+      variant: 'danger'
+    });
+    return;
+  }, [onAddAlert, t]);
+
   const downloadReport = useCallback(
-    async (reportId: number) => {
+    async (reportId: number | undefined) => {
+      if (!reportId) {
+        return callbackErrorNoReport();
+      }
       let response;
       try {
         response = await apiCall(reportId);
