@@ -38,7 +38,7 @@ import {
   FilterType,
   useTablePropHelpers,
   useTableState
-} from '@quipucords/react-table-batteries';
+} from 'react-table-batteries';
 import ActionMenu from '../../components/actionMenu/actionMenu';
 import { ContextIcon, ContextIconVariant } from '../../components/contextIcon/contextIcon';
 import { ErrorMessage } from '../../components/errorMessage/errorMessage';

@@ -36,7 +36,7 @@ import {
   FilterType,
   useTablePropHelpers,
   useTableState
-} from '@quipucords/react-table-batteries';
+} from 'react-table-batteries';
 import ActionMenu from '../../components/actionMenu/actionMenu';
 import { ErrorMessage } from '../../components/errorMessage/errorMessage';
 import { RefreshTimeButton } from '../../components/refreshTimeButton/refreshTimeButton';

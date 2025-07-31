@@ -7,7 +7,7 @@
  *
  * @module useScansQuery
  */
-import { type TableState } from '@quipucords/react-table-batteries';
+import { type TableState } from 'react-table-batteries';
 import { useServiceQuery } from '../../helpers/queryHelpers';
 import { type Scan } from '../../types/types';
 

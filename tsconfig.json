@@ -17,7 +17,12 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "paths": {
+      "react-table-batteries": [
+        "./node_modules/@quipucords-root/react-table-batteries-root/packages/module"
+      ]
+    }
   },
   "include": [
     "**.js",

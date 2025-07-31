@@ -1,4 +1,4 @@
-import { type TableState } from '@quipucords/react-table-batteries';
+import { type TableState } from 'react-table-batteries';
 import { renderHook } from '@testing-library/react';
 jest.mock('../../../helpers/queryHelpers', () => ({
   useServiceQuery: jest.fn(() => ({

@@ -6,6 +6,9 @@
  * @param {string} params.brandName The branded product name
  * @param {string} params.name The original product code name
  */
+
+const path = require("path");
+
 const setBranding = ({ isBrand, brandName, name } = {}) => {
   const updatedName = (isBrand && brandName) || name;
 
@@ -19,7 +22,7 @@ module.exports = {
   setBranding,
   resolve: {
     alias: {
-      'react-table-batteries': path.resolve(__dirname, 'node_modules/@quipucords/react-table-batteries-root/packages/module')
+      'react-table-batteries': path.resolve(__dirname, 'node_modules/@quipucords-root/react-table-batteries-root/packages/module')
     }
   }
 };

@@ -6,7 +6,7 @@
  *
  * @module useCredentialsQuery
  */
-import { type TableState } from '@quipucords/react-table-batteries';
+import { type TableState } from 'react-table-batteries';
 import { API_CREDS_LIST_QUERY } from '../../constants/apiConstants';
 import { useServiceQuery } from '../../helpers/queryHelpers';
 import { type CredentialType } from '../../types/types';

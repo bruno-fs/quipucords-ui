@@ -5,7 +5,7 @@
  *
  * @module queryHelpers
  */
-import { type TableState } from '@quipucords/react-table-batteries';
+import { type TableState } from 'react-table-batteries';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { helpers } from './helpers';
