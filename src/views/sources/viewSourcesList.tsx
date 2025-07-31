@@ -8,6 +8,7 @@
  */
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
+import { ConditionalTableBody, FilterType, useTablePropHelpers, useTableState } from 'react-table-batteries';
 import {
   Alert,
   AlertActionCloseButton,
@@ -31,12 +32,6 @@ import {
   getUniqueId
 } from '@patternfly/react-core';
 import { PlusCircleIcon } from '@patternfly/react-icons';
-import {
-  ConditionalTableBody,
-  FilterType,
-  useTablePropHelpers,
-  useTableState
-} from 'react-table-batteries';
 import ActionMenu from '../../components/actionMenu/actionMenu';
 import { ContextIcon, ContextIconVariant } from '../../components/contextIcon/contextIcon';
 import { ErrorMessage } from '../../components/errorMessage/errorMessage';

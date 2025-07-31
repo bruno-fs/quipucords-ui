@@ -21,6 +21,9 @@
     "paths": {
       "react-table-batteries": [
         "./node_modules/@quipucords-root/react-table-batteries-root/packages/module"
+      ],
+      "react-table-batteries/*": [
+        "./node_modules/@quipucords-root/react-table-batteries/packages/module/dist/esm/*"
       ]
     }
   },
