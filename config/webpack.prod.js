@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { setBranding } = require('./webpack.common');
+const { setBranding, resolve } = require('./webpack.common');
 
 /**
  * Update a tsconfig file for webpack.
@@ -35,6 +35,7 @@ module.exports = ({ RELATIVE_DIRNAME, REACT_APP_UI_BRAND, REACT_APP_UI_BRAND_NAM
   });
 
   return {
+    resolve,
     ignoreWarnings: [
       {
         message: /mini-css-extract-plugin/

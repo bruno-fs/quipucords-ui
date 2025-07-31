@@ -1,5 +1,5 @@
 const { EslintWebpackPlugin } = require('weldable/lib/packages');
-const { setBranding } = require('./webpack.common');
+const { setBranding, resolve } = require('./webpack.common');
 
 module.exports = ({
   SRC_DIR,
@@ -13,6 +13,7 @@ module.exports = ({
   setBranding({ isBrand: REACT_APP_UI_BRAND === 'true', brandName: REACT_APP_UI_BRAND_NAME, name: REACT_APP_UI_NAME });
 
   return {
+    resolve,
     plugins: [
       new EslintWebpackPlugin({
         context: SRC_DIR,

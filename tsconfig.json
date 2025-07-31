@@ -20,7 +20,7 @@
     "target": "esnext",
     "paths": {
       "react-table-batteries": [
-        "./node_modules/@quipucords-root/react-table-batteries-root/packages/module"
+        "./node_modules/@quipucords-root/react-table-batteries-root/packages/module/src"
       ]
     }
   },
