@@ -9,12 +9,6 @@
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
 import {
-  ConditionalTableBody,
-  FilterType,
-  useTablePropHelpers,
-  useTableState
-} from '@mturley-latest/react-table-batteries';
-import {
   Alert,
   AlertActionCloseButton,
   AlertGroup,
@@ -37,6 +31,12 @@ import {
   getUniqueId
 } from '@patternfly/react-core';
 import { PlusCircleIcon } from '@patternfly/react-icons';
+import {
+  ConditionalTableBody,
+  FilterType,
+  useTablePropHelpers,
+  useTableState
+} from '@quipucords/react-table-batteries';
 import ActionMenu from '../../components/actionMenu/actionMenu';
 import { ErrorMessage } from '../../components/errorMessage/errorMessage';
 import { RefreshTimeButton } from '../../components/refreshTimeButton/refreshTimeButton';

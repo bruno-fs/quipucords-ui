@@ -16,5 +16,11 @@ const setBranding = ({ isBrand, brandName, name } = {}) => {
 };
 
 module.exports = {
-  setBranding
+  setBranding,
+  resolve: {
+    alias: {
+      'react-table-batteries': path.resolve(__dirname, 'node_modules/@quipucords/react-table-batteries-root/packages/module')
+    }
+  }
 };
+
