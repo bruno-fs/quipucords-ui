@@ -22,7 +22,7 @@ module.exports = {
   setBranding,
   resolve: {
     alias: {
-      'react-table-batteries': path.resolve(__dirname, '../node_modules/@quipucords-root/react-table-batteries-root/packages/module/src')
+      'react-table-batteries': path.resolve(__dirname, '../node_modules/@quipucords-root/react-table-batteries-root/packages/module')
     }
   }
 };
